@@ -53,3 +53,5 @@ $ code .
 ```
 
 2. 安裝 相關的 外掛 (git, github, docker 等...)
+   - git commit 可用 側邊, 然後選勾勾 按鈕 V 來 Commit 也要加 註解
+   - git push 可選 git -> ... -> push 
