@@ -33,7 +33,7 @@ $ git pull                (把 code 從動 GitHub拉下來 )
      - 建立一個**Repository (儲存位置)** 隨便叫做 **node123** 好了
      - 按 綠色的 `code` 按鈕, 會有 http 連結, 複製一下
   3. 
-  ```
+```
 echo "# test01" >> README.md
 git init
 git add README.md
@@ -41,8 +41,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/dean0123/test01.git
 git push -u origin main
-
-  ```
+```
 
 # 把你寫的 'Web 網頁' 放到 internet, 這樣別的同學老師也可以看得到
 
