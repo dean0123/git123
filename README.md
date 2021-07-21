@@ -54,7 +54,7 @@ $ code .
 
 2. 安裝 相關的 外掛 (git, github, docker 等...)
    - git commit 可用 側邊, 然後選勾勾 按鈕 V 來 Commit 也要加 註解
-   - git push 可選 git -> ... -> push (按最下面的圈圈也可以)
+   - git push 可選 git -> ... -> push 或 sync (按最下面的圈圈也可以Sync = pull push 會 Merge )
 
    - Extensions 是左邊田字型按鈕 
     1. Remote  by Microdoft : 如果有Containder 用這個看 remote code
