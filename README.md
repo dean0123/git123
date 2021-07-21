@@ -7,7 +7,7 @@
   - why 因:
   - how 果:
 
-# 什麼是 githab ? 
+# 什麼是 githab ?   git vs github? 
 
 # 安裝
 
