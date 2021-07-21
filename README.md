@@ -14,13 +14,14 @@
 # 使用 
 ```
 $ cd dir01
-$ git init    (每一步都用 git status 看狀態)
-$ git add .   (每一步都用 git status 看狀態) 
-$ git remote add origin https://..........   (設定目錄 code 放到github, 不行就先 git remote rm origin)
+$ git init                (每一步都用 git status 看狀態)
+$ git add .               (每一步都用 git status 看狀態) 
+$ git remote add origin https://..........   
+                          (設定目錄 code 放到github, 不行就先 git remote rm origin)
 $ git commit -a -m "first"
-$ git branch -M main  (設定主要分支爲 main)
-$ git push -u origin main    (把code 推送到 github, 之後就 只要 $git push 就好)
-$ git pull     (把 code 從動 GitHub拉下來 )
+$ git branch -M main      (設定主要分支爲 main)
+$ git push -u origin main (把code 推送到 github, 之後就 只要 $git push 就好)
+$ git pull                (把 code 從動 GitHub拉下來 )
 ```
 
 # 4. 把 '程式碼' 'Code' 放到 internet (GitHub)
@@ -46,3 +47,10 @@ git push -u origin main
 # 把你寫的 'Web 網頁' 放到 internet, 這樣別的同學老師也可以看得到
 
 
+# VSCode  (另外開Repository)
+1. 安裝使用, 到 cd 工作目錄 下 打
+``` 
+$ code .
+```
+
+2. 安裝 相關的 外掛 (git, github, docker 等...)
