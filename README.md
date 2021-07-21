@@ -59,4 +59,4 @@ $ code .
    - Extensions 是左邊田字型按鈕 
     1. Remote  by Microdoft : 如果有Containder 用這個看remote code
     2. Docker  by Microsoft : 可以用這個啓動 管理 Docker
-    3. Github  by Github : 可以 Pull request. 其實不用裝也可以用 Git Hub
+    3. Github  by Github : 可以 Pull request. 其實不用裝也可以用 Git Hub. 在Terminal 設定好就好了
