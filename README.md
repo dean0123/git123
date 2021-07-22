@@ -46,11 +46,10 @@ $ git reflog               (列出 commit 內容）
 $ git branch -a            (查現在的分支 branch 是什麼，本機預設是 master， github 預設是 origin main， heroku 是 heroku main ）                           
 $ git checkout -b xxxx     (切換 branch 分支， 可切換到副分支， 也可切換回主分支 master， 將檔案叫回來 到工作目錄中）
 $ git merge                (合併 branch 分支， 一般是切換 checkout master 到主分支， 然後再合併 某一個 副分支 ）
-
+  
 $ git config --list                                 (list config ）
 $ git config --global user.name "Dean"              (set user name）
 $ git config --global user.email "Dean@gmail.com"   (set user email）
-
 ```  
 # 5. 用 git push 到遠端/雲端資料庫
 - **遠端**資料庫一般是 `git server` ， 公司內部 或 團體開發用的。 
