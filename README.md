@@ -9,6 +9,8 @@
 
 ![git 圖](https://en.wikipedia.org/wiki/Git#/media/File:GNOME_gitg.png) 
 
+![Alt Text](https://en.wikipedia.org/wiki/Git#/media/File:GNOME_gitg.png)
+
 ![aaa](https://en.wikipedia.org/wiki/File:Git_operations.svg)
 
 # 2. 什麼是 github?  跟 git 一樣嗎? 
