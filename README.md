@@ -52,15 +52,15 @@ $ git config --global user.email "Dean@gmail.com"   (set user email）
 ```  
 
 
-# 2. 用 git push code 到遠端/雲端資料庫 github
+# 2. 登入 github 建立 Repository 
 
 - **遠端**資料庫一般是 `git server` ， 一般用來做 公司內部 或 團體開發用的。 
-- **雲端**資料庫一般用 `github`  
-github **不用安裝**, `google github` 找到 github 網頁去申請一個帳號密碼, 然後就可以使用了, 可以
-
-#    登入 github 建立 Repository
-  - 先叫做 **node123** 好了  
+- **雲端**資料庫一般用 `github` ， `github` **不用安裝**, 直接到 `github.com` 網頁申請一個帳號密碼登入就好了
+- 登入後， 先建立一個 Repository 資料庫， 名稱自定， 我先叫做 **node123** 好了  
 按 綠色的 `code` 按鈕, 會看到 Repository 的 http 連結. 複製一下等下要用來設定 git remote 的遠端/雲端資料庫
+設定 git remote
+#   用 git push code 到遠端/雲端資料庫 github
+  -   
 ```javascript
 $ git remote add origin https://github.com/你的帳號名稱/node123.git  (<-- 貼上剛剛複製的連結)
                           (設定 git 目錄 code 放到 github, 不行就先 git remote rm origin)
