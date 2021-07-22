@@ -30,7 +30,7 @@ $ git --version      (有版本號碼出來就對了)
 ```
 
 
-# 使用 git add commit code 到本地資料庫
+#   使用 git add commit code 到本地資料庫
 - 簡單試用看看 git init, add, commit, checkout
 ```javascript
 $ cd dir01                 (cd到工作目錄， 一般每個工作目錄, Project 都要單獨設定一次, )
@@ -57,8 +57,10 @@ $ git config --global user.email "Dean@gmail.com"   (set user email）
 - **遠端**資料庫一般是 `git server` ， 一般用來做 公司內部 或 團體開發用的。 
 - **雲端**資料庫一般用 `github`  
 github **不用安裝**, `google github` 找到 github 網頁去申請一個帳號密碼, 然後就可以使用了, 可以
-  1. 登入後, 建立一個 **repository (儲存位置)** , 先叫做 **node123** 好了, 用來裝你的程式
-  2. 按 綠色的 `code` 按鈕, 會看到 repository 的 http 連結. 複製一下等下 git 要用來 設定 remote 的存放點. 
+
+#    登入 github 建立 Repository
+  - 先叫做 **node123** 好了  
+按 綠色的 `code` 按鈕, 會看到 Repository 的 http 連結. 複製一下等下要用來設定 git remote 的遠端/雲端資料庫
 ```javascript
 $ git remote add origin https://github.com/你的帳號名稱/node123.git  (<-- 貼上剛剛複製的連結)
                           (設定 git 目錄 code 放到 github, 不行就先 git remote rm origin)
