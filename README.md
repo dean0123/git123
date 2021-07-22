@@ -45,8 +45,8 @@ $ git log                  (列出 user time commit message 跟 內容）
 $ git reflog               (列出 commit 內容）                           
 $ git branch -a            (查現在的分支 branch 是什麼，本機預設是 master， github 預設是 origin main， heroku 是 heroku main ）                           
 $ git checkout -b xxxx     (切換 branch 分支， 可切換到副分支， 也可切換回主分支 master， 將檔案叫回來 到工作目錄中）
-$ x git merge                (合併 branch 分支， 一般是切換 checkout master 到主分支， 然後再合併 某一個 副分支 ）
-      
+$ git merge                (合併 branch 分支， 一般是切換 checkout master 到主分支， 然後再合併 某一個 副分支 ）
+                           (merge 副分支 branch 回 主分支 master）     
 $ git config --list                                 (list config ）
 $ git config --global user.name "Dean"              (set user name）
 $ git config --global user.email "Dean@gmail.com"   (set user email）
