@@ -7,7 +7,8 @@
   - why 因:
   - how 果:  
 
-![git 圖](https://en.wikipedia.org/wiki/Git#/media/File:Git_operations.svg). 
+![git 圖]
+(https://en.wikipedia.org/wiki/Git#/media/File:Git_operations.svg) 
 
 ![aaa](https://en.wikipedia.org/wiki/File:Git_operations.svg)
 
