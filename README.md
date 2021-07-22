@@ -5,7 +5,11 @@
   - when 時:
   - where 地:
   - why 因:
-  - how 果:
+  - how 果:  
+
+![git 圖](https://en.wikipedia.org/wiki/Git#/media/File:Git_operations.svg). 
+
+![aaa](https://en.wikipedia.org/wiki/File:Git_operations.svg)
 
 # 2. 什麼是 github?  跟 git 一樣嗎? 
 - git 是一種**版本控制**的東西, 等於是**存檔**的概念, 
@@ -29,6 +33,7 @@ $ git --version      (有版本號碼出來就對了)
   2. 按 綠色的 `code` 按鈕, 會看到 repository 的 http 連結. 複製一下等下 git 要用來 設定 remote 的存放點. 
 
 # 4. 使用 git init, add, remote, commit, push, pull 
+- 簡單試用看看 git init, add, 
 ```
 $ cd dir01                (每個工作目錄, Project 都要單獨設定一次, )
 $ git init                (把這個目錄 git 初始化, 每一步都用 git status 看狀態)
