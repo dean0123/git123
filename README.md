@@ -43,11 +43,17 @@ $ git pull                (把 code 從雲端 GitHub 拉下來 )
 ```
 
 
-# 5. 如何把 各自的 github repository 變成各自單獨網頁
+# 5. git 說完了， 現在換 github 了。 把 github 的 repository 變成一個網頁
+- 如何把 各自的 github repository 變成各自單獨網頁
 - github 裏面 選 repositoty 後, 選 settings 設定, 左邊下面有個 pages 點開, 
-- 然後 source 選 main 目錄 選 /root
-- choose theme 選第一個, 
-# 6. 如何把 自己的 github root 變成網頁主頁
+- 然後 source 選 `main` -> 目錄 選 `/root` -> theme 隨便選一個， github 會把 `README.md` 會自動轉爲網頁， 你可以回去修改內容  
+- 比方說 github 帳號是 `dean0123`, 剛剛加的 repository 叫做 `test123` 那麼 新網頁就是  `https://dean0123.github.io/test123/` 有時候會等一分鐘才更新
+
+# 6. 如果你把 github Repository 跟你 的 **github帳號** 有關， 會有特別的功能
+- 第一個 就是 把 repository 設成剛好跟你的 **github 帳號** 一樣    
+例如我的 `dean0123`， 那麼 github 會把它變成我的 github 的主頁 [`https://github.com/dean0123`](https://github.com/dean0123) 
+- 另一個是 把 repository 設成你的 **github 帳號** 後面加 `github.io`   
+例如我把 Reposotory 設成 `dean0123.github.io` 這個帳號的網址會直接變成獨立的 [`https://dean0123.github.io`](https://dean0123.github.io)  酷吧 
 
 # 9. VSCode 上也可以用 git， 按 V 勾勾按鈕， 再按 下面等圈圈 Sync (另外開Repository pages)
 1. 安裝使用, 到 cd 工作目錄 下 打
