@@ -7,11 +7,8 @@
   - why 因:
   - how 果:  
 
-![git 圖](https://en.wikipedia.org/wiki/Git#/media/File:GNOME_gitg.png) 
+![git](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Git_operations.svg/588px-Git_operations.svg.png) 
 
-![Alt Text](https://en.wikipedia.org/wiki/Git#/media/File:GNOME_gitg.png)
-
-![aaa](https://en.wikipedia.org/wiki/File:Git_operations.svg)
 
 # 2. 什麼是 github?  跟 git 一樣嗎? 
 - git 是一種**版本控制**的東西, 等於是**存檔**的概念, 
