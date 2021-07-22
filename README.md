@@ -28,7 +28,7 @@ $ git --version      (有版本號碼出來就對了)
   1. 登入後, 建立一個 **repository (儲存位置)** , 先叫做 **test123** 好了, 用來裝你的程式
   2. 按 綠色的 `code` 按鈕, 會看到 repository 的 http 連結. 複製一下等下 git 要用來 設定 remote 的存放點. 
 
-# 4。 使用 git init, add, remote, commit, push, pull 
+# 4. 使用 git init, add, remote, commit, push, pull 
 ```
 $ cd dir01                (每個工作目錄, Project 都要單獨設定一次, )
 $ git init                (把這個目錄 git 初始化, 每一步都用 git status 看狀態)
