@@ -25,7 +25,7 @@
 
 # 3. 安裝 git
 - git 需要安裝, `google git` 找到就可以**下載 git 安裝**了, 很快很小, 裝好後重開`Terminal` 下指令測試一下
-```
+```javascript
 $ git --version      (有版本號碼出來就對了) 
 ```
 - github **不用安裝**, `google github` 找到 github 網頁去申請一個帳號密碼, 然後就可以使用了, 可以
@@ -34,7 +34,7 @@ $ git --version      (有版本號碼出來就對了)
 
 # 4. 使用 git init, add, remote, commit, push, pull 
 - 簡單試用看看 git init, add, 
-```
+```javascript
 $ cd dir01                (每個工作目錄, Project 都要單獨設定一次, )
 $ git init                (把這個目錄 git 初始化, 每一步都用 git status 看狀態)
 $ git add .               (加檔案到 git stage, 每一步都用 git status 看狀態) 
@@ -63,7 +63,7 @@ $ git pull                (把 code 從雲端 GitHub 拉下來 )
 
 # 9. VSCode 上也可以用 git， 按 V 勾勾按鈕， 再按 下面等圈圈 Sync (另外開Repository pages)
 1. 安裝使用, 到 cd 工作目錄 下 打
-``` 
+```javascript
 $ code .
 ```
 
