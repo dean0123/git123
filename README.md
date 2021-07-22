@@ -50,6 +50,8 @@ $ git config --list                                 (list config ）
 $ git config --global user.name "Dean"              (set user name）
 $ git config --global user.email "Dean@gmail.com"   (set user email）
 ```  
+
+
 # 2. 用 git push code 到遠端/雲端資料庫 github
 
 - **遠端**資料庫一般是 `git server` ， 一般用來做 公司內部 或 團體開發用的。 
