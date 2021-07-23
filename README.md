@@ -41,16 +41,18 @@ $ git commit -m "mesg.."   (把 暫存 stage 裏面的檔案 確認 commit 到�
                            -m 是 確認這個版本的 message 訊息, 方便日後查詢
                            -a 是 commit 時， 也 add 加入新的檔案
 $ git log                  (列出 commit 的記錄 與 user time message）                           
-$ git reflog               (列出 被 reference checkout 的 記錄 ）                           
-$ git branch -a            (查現在的分支 branch 是什麼，本機預設是 master， github 預設是 origin main， heroku 是 heroku main ）                           
-$ git checkout -b xxxx     (切換 branch 分支， 可切換到副分支， 也可切換回主分支 master， 將檔案叫回來 到工作目錄中）
-$ git merge                (合併 branch 分支， 一般是切換 checkout master 到主分支， 然後再合併 某一個 副分支 ）
-                           (merge 副分支 branch 回 主分支 master）     
+$ git reflog               (列出 被 reference checkout 的 記錄 ）     
+$ git checkout xxxx        (叫出來某一站的 Code 或 分支， 將檔案叫回來 到工作目錄中）
+//
 $ git config --list                                 (list config ）
 $ git config --global user.name "Dean"              (set user name）
 $ git config --global user.email "Dean@gmail.com"   (set user email）
 ```  
-
+- git merge 是高段班 跟 branch 配合
+```
+$ git branch -a            (查現在的分支 branch 是什麼，本機預設是 master， github 預設是 origin main， heroku 是 heroku main ）               $ git merge                (合併 branch 分支， 一般是切換 checkout master 到主分支， 然後再合併 某一個 副分支 ）
+                           (merge 副分支 branch 回 主分支 master）     
+```
 
 # 2. 登入 github 建立 Repository 
 
