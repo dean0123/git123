@@ -40,8 +40,8 @@ $ git add .                (把檔案加到 git stage 暫存的 stage)
 $ git commit -m "mesg.."   (把 暫存 stage 裏面的檔案 確認 commit 到本地暫存 目前 Branch 分支）
                            -m 是 確認這個版本的 message 訊息, 方便日後查詢
                            -a 是 commit 時， 也 add 加入新的檔案
-$ git log                  (列出 user time commit message 跟 內容）                           
-$ git reflog               (列出 commit 內容）                           
+$ git log                  (列出 commit 的記錄 與 user time message）                           
+$ git reflog               (列出 被 reference checkout 的 記錄 ）                           
 $ git branch -a            (查現在的分支 branch 是什麼，本機預設是 master， github 預設是 origin main， heroku 是 heroku main ）                           
 $ git checkout -b xxxx     (切換 branch 分支， 可切換到副分支， 也可切換回主分支 master， 將檔案叫回來 到工作目錄中）
 $ git merge                (合併 branch 分支， 一般是切換 checkout master 到主分支， 然後再合併 某一個 副分支 ）
