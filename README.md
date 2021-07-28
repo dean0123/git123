@@ -45,8 +45,8 @@ $ git reflog               (列出 被 reference checkout 的 記錄 ）
 $ git checkout xxxx        (叫出來某一站的 Code 或 分支， 將檔案叫回來 到工作目錄中）
 //
 $ git config --list                                 (list config ）
-$ git config --global user.name "Dean"              (set user name）
-$ git config --global user.email "Dean@gmail.com"   (set user email）
+$ git config --global user.name "dean0123"              (set user name）
+$ git config --global user.email "dean0224@gmail.com"   (set user email）
 ```  
 - git merge 是高段班 跟 branch 配合
 ```
